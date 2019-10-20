@@ -1,8 +1,11 @@
 {
   "name": "nodeJsTest",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "server.js",
   "license": "MIT",
+  "script": {
+    "start": "node server.js"
+  }
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
